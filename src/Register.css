@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #ff8080, #5dffce);
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: ceter;
+  align-items: center;
+}
+.box {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 340px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+}
+.gender {
+  display: flex;
+  justify-content: space-around;
+
+  color: white;
+}
+.terms {
+  color: white;
+}
+button {
+  width: 120px;
+  padding: 10px;
+  margin: 2px 9px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  transform: scale(1.05);
+}
+p {
+  color: yellow;
+}
